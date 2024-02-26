@@ -65,9 +65,45 @@ For any cameras you want post processing applied to during gameplay, you have to
 
 ## Volumes I (Global Volume)
 
+![Create new Global Volume object](Demo/New_Global_Volume.png)
+
+1. Create a new `Global Volume` object in the Hierarchy (Hierarchy > Volume > Global Volume)
+
+![Add new Volume Profile](Demo/New_Volume_Profile.png)
+
+2. View the newly created `Global Volume` in the Inspector and press `New` under Profile to createa a new volume profile
+
+![Add new Volume Profile Override](Demo/Add_Volume_Override.png)
+
+3. A new section will appear below Profile, click `Add Override` under the new Profile.
+
+![Add Bloom effect](Demo/Add_Bloom_Effect.png)
+
+4. Add the `Bloom` effect and set the following values, WARNING: the screen will flash during this step during the re-render.
+
+5. Observe that some game objects have a "glow" emitting from them
+
 ## Volumes II (Local Volume)
 
-## Profile Overrides
+1. Create a new `Box Volume` object in the Hierarchy (Hierarchy > Volume > Box Volume)
+
+![Toggle Gizmo Visibility](Demo/Toggle_Gizmo_Visibility.png)
+
+2. Select the newly created `Box Volume` and toggle gizmo visibility to see the area the Box Volume takes effect (you should now see a green highlighted box)
+
+3. Move the `Box Volume` into the Server Room
+
+![Change Box Volume Settings](Demo/Box_Volume_Settings.png)
+
+4. Select the `Box Volume`, add a new Volume Profile and change its Priority to 1
+
+![Add desaturate effect](Demo/Add_Desaturation_Effect.png)
+
+5. Add any effect, in this case lets try to add a desaturation effect (Add Override > Color Adjustments > Set Saturation to -100)
+
+6. Observe that moving into the box volume area removes all colour:
+
+![Desaturation Effect](Demo/Desaturation_Effect.mp4)
 
 ## References
 
