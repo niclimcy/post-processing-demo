@@ -103,7 +103,7 @@ For any cameras you want post processing applied to during gameplay, you have to
 
 6. Observe that moving into the box volume area removes all colour:
 
-![Desaturation Effect](Demo/Desaturation_Effect.mp4)
+https://github.com/niclimcy/post-processing-demo/assets/6513413/52cac3e4-0b30-40bb-9d64-d3629c1f80b8
 
 ## References
 
