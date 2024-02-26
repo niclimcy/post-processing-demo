@@ -2,7 +2,8 @@
 
 ## Download and open the Week 5 Unity Project
 
-1. Duplicate existing Week 5 VRTut project or Download the zip file [HERE](https://drive.google.com/file/d/1iMGUauE0O7175kPf6t7hNDXoElbM_YP8/view?usp=sharing)
+1. Duplicate the existing Week 5 VRTut project
+    > OR Download the zip file [HERE](https://drive.google.com/file/d/1iMGUauE0O7175kPf6t7hNDXoElbM_YP8/view?usp=sharing)
 2. Open UnityHub → Open → Add project from disk → (select) duplicated VRTut (folder)
 3. Click and open VRTur Unity project
 4. You should see the server room from Week 5
@@ -71,7 +72,7 @@ For any cameras you want post processing applied to during gameplay, you have to
 
 ![Add new Volume Profile](Demo/New_Volume_Profile.png)
 
-2. View the newly created `Global Volume` in the Inspector and press `New` under Profile to createa a new volume profile
+2. View the newly created `Global Volume` in the Inspector and press `New` under Profile to create a new volume profile
 
 ![Add new Volume Profile Override](Demo/Add_Volume_Override.png)
 
@@ -79,7 +80,8 @@ For any cameras you want post processing applied to during gameplay, you have to
 
 ![Add Bloom effect](Demo/Add_Bloom_Effect.png)
 
-4. Add the `Bloom` effect and set the following values, WARNING: the screen will flash during this step during the re-render.
+4. Add the `Bloom` effect and set the following values
+    > ⚠️ The screen will flash during this step
 
 5. Observe that some game objects have a "glow" emitting from them
 
